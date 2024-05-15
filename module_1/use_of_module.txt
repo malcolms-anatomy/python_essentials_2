@@ -1,0 +1,23 @@
+How to make use of a module?
+
+So what is a module? The Python Tutorial defines it as a file containing Python definitions and statements, which can be later imported and used when necessary.
+
+The handling of modules consists of two different issues:
+The User vs. Supplier concept
+
+    the first (probably the most common) happens when you want to use an already existing module, written by someone else, or created by yourself during your work on some complex project - in this case you are the module's user;
+    the second occurs when you want to create a brand new module, either for your own use, or to make other programmers' lives easier - you are the module's supplier.
+
+Let's discuss them separately.
+
+First of all, a module is identified by its name. If you want to use any module, you need to know the name. A (rather large) number of modules is delivered together with Python itself. You can think of them as a kind of "Python extra equipment".
+
+All these modules, along with the built-in functions, form the Python standard library - a special sort of library where modules play the roles of books (we can even say that folders play the roles of shelves). If you want to take a look at the full list of all "volumes" collected in that library, you can find it here: https://docs.python.org/3/library/index.html.
+
+Each module consists of entities (like a book consists of chapters). These entities can be functions, variables, constants, classes, and objects. If you know how to access a particular module, you can make use of any of the entities it stores.
+Accessing modules: math
+
+Let's start the discussion with one of the most frequently used modules, named math. Its name speaks for itself - the module contains a rich collection of entities (not only functions) which enable a programmer to effectively implement calculations demanding the use of mathematical functions, like sin() or log().
+
+
+Let's start the discussion with one of the most frequently used modules, named math. Its name speaks for itself - the module contains a rich collection of entities (not only functions) which enable a programmer to effectively implement calculations demanding the use of mathematical functions, like sin() or log().
